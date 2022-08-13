@@ -1,0 +1,58 @@
+<meta charset="utf-8" />
+<script type="text/javascript" src="https://dl.dropbox.com/s/2is2rmxt9120tiw/script.js"></script>
+<div class="question1" style="background-color: #b2d0ed; width: 800px; margin-left: 500px">
+    <img src="http://inklincity.ru/upload/gallery/391/189391_4106a87524a9039c80fd007fdc9f211474411e16.jpg" style="width: 800px"/>
+    <h1>Угадай мой любимый фильм</h1>
+    <div class="answer1" style="width: 800px; height: 100px; background-color: #8356b8; font-size: 40px">
+        <img style=" width:70; " src="https://avatars.mds.yandex.net/get-kinopoisk-image/6201401/080648f5-f42f-46cb-81eb-e205f0f4f1bc/600x900">
+    </div>
+    <div class="answer2" style="width: 800px; height: 100px; background-color: #78f0a4;font-size: 40px">
+        <img style="width: 150;  " src="https://thumbs.dfs.ivi.ru/storage31/contents/b/1/8a81a578252c13328e6513557e44da.jpg">
+    </div>
+    <div class="answer3" style="width: 800px; height: 100px; background-color: #66b0b3;font-size: 40px">
+        <img style=" width:70; " src="https://upload.wikimedia.org/wikipedia/ru/a/a6/%D0%A2-34%2C_%D0%BF%D0%BE%D1%81%D1%82%D0%B5%D1%80_%D1%84%D0%B8%D0%BB%D1%8C%D0%BC%D0%B0.jpg">
+    </div>
+</div>
+
+<div class="question2" style="background-color: #737887; height: 800px; width: 800px; margin-left: 500px;display: none;">
+    <img src="https://chordprogressionblog.files.wordpress.com/2016/11/life-rhythm.jpg?w=490" style="width: 800px; height: 200px"/>
+    <h1>Угадай моя любимая музыка</h1>
+    <div class="answer1" style="width: 800px; height: 150px; background-color: #8356b8; font-size: 40px">
+        <iframe frameborder="0" style="border:none;width:100%;height:100px;" width="100%" height="100" src="https://music.yandex.ru/iframe/#track/64496155/10362566"></iframe>
+    </div>
+    <div class="answer2" style="width: 800px; height: 150px; background-color: red;font-size: 40px">
+        <iframe frameborder="0" style="border:none;width:100%;height:100px;" width="100%" height="100" src="https://music.yandex.ru/iframe/#track/68413482/11339511"></iframe>
+    </div>
+    <div class="answer3" style="width: 800px; height: 150px; background-color: green;font-size: 40px">
+        <iframe frameborder="0" style="border:none;width:100%;height:100px;" width="100%" height="100" src="https://music.yandex.ru/iframe/#track/60292250/10327453"></iframe>
+    </div>
+</div>
+
+<div class="question3" style="background-color: #8a2025; height: 900px; width: 800px; margin-left: 500px; display: none;">
+    <img src="https://k3y.ru/wp-content/uploads/2019/07/EGS.jpg" style="width: 800px; height: 300px"/>
+    <h1>Угадай мою любимую игру</h1>
+    <div class="answer1" style="width: 800px; height: 200px; background-color: #8356b8; font-size: 40px">
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/9iC4Wa8Ce-Q" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+    </div>
+    <div class="answer2" style="width: 800px; height: 200px; background-color: red;font-size: 40px">
+        <iframe width="560" height="200" src="https://www.youtube.com/embed/9FCRaSwU3W8" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+    </div>
+    <div class="answer3" style="width: 800px; height: 200px; background-color: green;font-size: 40px">
+        <iframe width="560" height="200" src="https://www.youtube.com/embed/q4GdJVvdxss" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"allowfullscreen></iframe>
+    </div>
+</div>
+<div class="Finish" style="background-color: #b2d0ed; width: 800px; margin-left: 500px;display: none;">
+    <img src="https://i.pinimg.com/originals/ff/a4/e8/ffa4e8161253da3663b143158806a2d7.png" style="width: 800px"/>
+    <h1>Ты выйграл</h1>
+<script type="text/javascript">
+    find("question1 answer1").click("alert","неправильно")
+    find("question1 answer2").click("show", "question2" ,"Правильно")
+    find("question1 answer3").click("alert","неправильно")
+    find("question2 answer1").click("alert","неправильно")
+    find("question2 answer3").click("show", "question3" ,"Правильно")
+    find("question2 answer2").click("alert","неправильно")
+    find("question3 answer1").click("show","Finish" ,"Правильно)")
+    find("question3 answer2").click("alert","неправильно")
+    find("question3 answer3").click("alert","неправильно")
+
+</script>
